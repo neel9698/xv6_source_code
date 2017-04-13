@@ -5,8 +5,9 @@
 
 int main(int n, char *chr[])
 {
-
-printf(1,"%s %s \n",chr[0],chr[1]);
+int i;
+for(i=0;i<n;i++)
+printf(1,"%s\n",chr[i]);
 exit();
 
 }
